@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "242500681457",
+    "firebase_url": "https://daytodayindia-a633f.firebaseio.com",
+    "project_id": "daytodayindia-a633f",
+    "storage_bucket": "daytodayindia-a633f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242500681457:android:16817f1097b1efcc",
+        "android_client_info": {
+          "package_name": "app.daytoday.softpro.daytodayindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242500681457-eo0lo4fjio32m51km9to67kq8uh1itvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.daytoday.softpro.daytodayindia",
+            "certificate_hash": "e93a8a98c44f410772de843226e06666b15fb4c8"
+          }
+        },
+        {
+          "client_id": "242500681457-63rih2eputufibdvt5i9bc3p3kddh40r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ4vKxyN3R5Uw0hxEk7YDia9CNWNHhG8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242500681457-63rih2eputufibdvt5i9bc3p3kddh40r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242500681457:android:aa4ee40ec640de9850b350",
+        "android_client_info": {
+          "package_name": "app.daytoday.softpro.daytodayindiadtd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242500681457-dqrbtnnv1l0fo8vd724sosalv7pmakhs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.daytoday.softpro.daytodayindiadtd",
+            "certificate_hash": "e93a8a98c44f410772de843226e06666b15fb4c8"
+          }
+        },
+        {
+          "client_id": "242500681457-63rih2eputufibdvt5i9bc3p3kddh40r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ4vKxyN3R5Uw0hxEk7YDia9CNWNHhG8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242500681457-63rih2eputufibdvt5i9bc3p3kddh40r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Day Today India</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin_login_">AdminLogin_</string>
+</resources>

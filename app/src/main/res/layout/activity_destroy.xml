@@ -1,0 +1,62 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/del_img"
+        android:src="@drawable/sports"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Headline"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/del_head"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Edit Description"
+        android:textSize="20dp"
+        android:id="@+id/del_desc"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="60dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/btn_update"
+            android:background="@drawable/button_background"
+            android:layout_marginRight="10dp"
+            android:text="Update"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/btn_delete"
+            android:background="@drawable/button_background"
+            android:layout_marginLeft="10dp"
+            android:text="Delete"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

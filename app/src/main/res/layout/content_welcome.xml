@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.daytoday.softpro.daytodayindiadtd.WelcomeActivity"
+    tools:showIn="@layout/app_bar_welcome"
+    android:gravity="center"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Sports"
+
+            android:id="@+id/cd_sports"
+            app:cardBackgroundColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="7dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:onClick="sports"
+                android:gravity="center">
+            <ImageView
+                android:layout_width="100dp"
+
+                android:layout_height="100dp"
+                android:src="@drawable/sports"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports News"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Entertainment"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="7dp"
+android:id="@+id/cd_entertainment"
+
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:cardBackgroundColor="#fff"
+            android:layout_margin="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:onClick="entertainment"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+
+
+                    android:layout_height="100dp"
+                    android:src="@drawable/entertainment"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entertainment"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Sports"
+            app:cardBackgroundColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="7dp"
+            android:id="@+id/cd_politics"
+
+            android:layout_margin="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="politics"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+
+                    android:layout_height="100dp"
+                    android:src="@drawable/politics"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Politics"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Entertainment"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="7dp"
+            android:id="@+id/cd_technical"
+
+            android:textSize="15dp"
+            app:cardBackgroundColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:onClick="technical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+
+                    android:layout_height="100dp"
+                    android:src="@drawable/technical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Technical News"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Sports"
+            app:cardBackgroundColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="15dp"
+            android:id="@+id/cd_crime"
+
+            app:cardElevation="7dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="crime"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+
+                    android:layout_height="100dp"
+                    android:src="@drawable/crime"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crime News"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Entertainment"
+            android:id="@+id/cd_business"
+
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="7dp"
+            android:layout_margin="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="business"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+
+                    android:layout_height="100dp"
+                    android:src="@drawable/business"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Business"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
